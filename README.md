@@ -4,8 +4,8 @@
 телевизоре/USB-накопителе. Рассчитан на 4K-телевизоры Xiaomi TV A2 55"/43"
 (L55M7-EARU, L43M7-EARU), минимальная версия — Android TV 9 (API 28).
 
-**Готовый APK:** [`dist/nas2screen-1.0.0-release.apk`](dist/nas2screen-1.0.0-release.apk)
-(7,4 МБ, подписан, `minSdk 28`, `targetSdk 34`)
+**Скачать APK:** [nas2screen-1.0.0-release.apk](https://github.com/Dnlln/nas2screen/releases/download/v1.0.0/nas2screen-1.0.0-release.apk)
+— 7,4 МБ, подписан, `minSdk 28`, `targetSdk 34` ([все релизы](https://github.com/Dnlln/nas2screen/releases))
 
 ![Экран заставки](docs/screenshot-slideshow.png)
 
@@ -48,10 +48,12 @@
 
    ```powershell
    adb connect 192.168.88.XX:5555
-   adb install -r dist\nas2screen-1.0.0-release.apk
+   adb install -r nas2screen-1.0.0-release.apk
    ```
 
-   (`adb.exe` есть в `.android-sdk\platform-tools\`.)
+   (`adb.exe` есть в `.android-sdk\platform-tools\`. Файл APK — из
+   [релиза](https://github.com/Dnlln/nas2screen/releases) или из `dist\` после
+   локальной сборки.)
 
 3. Включите заставку: *Настройки → Устройство → Экранная заставка* →
    выберите **«Фотоскринсейвер NAS»** и задайте время до включения.
@@ -116,7 +118,8 @@ python tools\inspect_apk.py
 ```
 
 Результат: `app/build/outputs/apk/release/app-release.apk`; скрипт копирует его в
-`dist/nas2screen-<версия>-release.apk`.
+`dist/nas2screen-<версия>-release.apk` (каталог `dist/` в git не попадает —
+готовые сборки лежат в [релизах](https://github.com/Dnlln/nas2screen/releases)).
 
 Полная переподготовка окружения с нуля:
 
