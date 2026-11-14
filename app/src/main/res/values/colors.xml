@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FF0E1114</color>
+    <color name="surface">#FF171C21</color>
+    <color name="surface_focused">#FF26313A</color>
+    <color name="accent">#FF52D08A</color>
+    <color name="text_primary">#FFECEFF1</color>
+    <color name="text_secondary">#FF95A2AC</color>
+    <color name="ok">#FF4CD07D</color>
+    <color name="error">#FFF2706B</color>
+    <color name="warning">#FFE9B949</color>
+    <color name="clock_bg">#4D000000</color>
+    <color name="black">#FF000000</color>
+</resources>

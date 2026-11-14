@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NAS Photo Screensaver</string>
+    <string name="settings_title">Screensaver settings</string>
+
+    <!-- current source -->
+    <string name="current_source">Current source</string>
+    <string name="current_source_none">not selected</string>
+    <string name="current_source_local">This TV / USB</string>
+    <string name="current_source_smb">SMB</string>
+
+    <!-- source -->
+    <string name="section_source">PHOTO SOURCE</string>
+    <string name="source_local">This TV or USB drive</string>
+    <string name="source_local_desc">Pick a folder available on this device</string>
+    <string name="source_smb">SMB</string>
+    <string name="source_smb_desc">Connect to a shared folder on NAS, PC or server</string>
+
+    <string name="folder_location">Folder location</string>
+    <string name="folder_not_set">No folder selected</string>
+    <string name="choose_folder">Choose folder</string>
+    <string name="choose_folder_manual">Choose folder manually (without system dialog)</string>
+    <string name="storage_permission_needed">Storage access is required to browse folders</string>
+
+    <string name="smb_server">Server address</string>
+    <string name="smb_server_hint">192.168.88.23 or nas.local</string>
+    <string name="smb_folder">Folder path</string>
+    <string name="smb_folder_hint">Multimedia/Camera Uploads/2026/02</string>
+    <string name="smb_user">User name</string>
+    <string name="smb_password">Password</string>
+    <string name="smb_credentials_hint">Leave empty for guest access</string>
+
+    <string name="test_connection">Test connection</string>
+    <string name="testing">Testing…</string>
+    <string name="test_ok">Connection OK. Photos found: %1$d</string>
+    <string name="test_ok_empty">Connection OK, but there are no photos in this folder</string>
+    <string name="test_need_values">Enter the server and folder path first</string>
+
+    <!-- slideshow -->
+    <string name="section_slideshow">SLIDESHOW</string>
+    <string name="interval_title">Time between photos</string>
+    <string name="interval_desc">From 5 to 3600 seconds</string>
+    <string name="interval_unit">s</string>
+    <string name="interval_invalid">Interval must be between 5 and 3600 seconds</string>
+    <string name="shuffle_title">Shuffle</string>
+    <string name="shuffle_desc">Random order, the same photo is never shown twice in a row</string>
+
+    <!-- screen -->
+    <string name="section_screen">SCREEN</string>
+    <string name="clock_title">Clock</string>
+    <string name="clock_desc">Current time in the bottom right corner</string>
+
+    <!-- maintenance -->
+    <string name="section_maintenance">MAINTENANCE</string>
+    <string name="clear_cache">Clear image cache</string>
+    <string name="cache_used">Cached: %1$s</string>
+    <string name="cache_cleared">Cache cleared</string>
+    <string name="open_system_dream_settings">System screensaver settings</string>
+    <string name="open_system_settings_failed">Could not open system settings</string>
+    <string name="last_error_title">Last error</string>
+    <string name="last_error_none">none</string>
+    <string name="version_fmt">Version %1$s</string>
+    <string name="size_bytes">%1$d B</string>
+    <string name="size_kb">%1$.0f KB</string>
+    <string name="size_mb">%1$.1f MB</string>
+
+    <!-- preview -->
+    <string name="preview">Preview</string>
+    <string name="preview_hint">MENU — settings · BACK — exit</string>
+    <string name="nav_hint">Use the D-pad to move, OK to select</string>
+
+    <!-- errors -->
+    <string name="err_not_configured">Photo source is not configured</string>
+    <string name="err_no_files">No photos found in the selected folder</string>
+    <string name="err_source_unavailable">Source unavailable. Check the settings.</string>
+    <string name="err_not_found">Folder not found: %1$s</string>
+    <string name="err_denied">Access denied. Check user name and password</string>
+    <string name="err_unreachable">Server is unreachable: %1$s</string>
+    <string name="err_timeout">Connection timed out</string>
+    <string name="err_protocol">The server does not support SMB 2. SMB 2.0/2.1 is required</string>
+    <string name="err_unreadable">Cannot read: %1$s</string>
+    <string name="err_io">Source error: %1$s</string>
+    <string name="err_bad_smb_path">Invalid SMB path. Enter the server and folder, for example Multimedia/Photos</string>
+    <string name="retry_in">Retry in %1$d s</string>
+
+    <!-- dream / slideshow messages -->
+    <string name="msg_choose_source">Select a photo source</string>
+    <string name="msg_choose_source_hint">Open the NAS Photo Screensaver app and choose a folder</string>
+    <string name="msg_loading">Loading photos…</string>
+    <string name="msg_empty_folder">No photos found</string>
+
+    <!-- folder browser -->
+    <string name="browser_title">Choose folder</string>
+    <string name="browser_up">Up</string>
+    <string name="browser_pick">Select this folder</string>
+    <string name="browser_current">Current: %1$s</string>
+    <string name="browser_empty">No subfolders</string>
+    <string name="browser_grant">Allow storage access</string>
+    <string name="browser_internal">Internal storage</string>
+    <string name="browser_root">Storage</string>
+    <string name="browser_roots_title">Storage devices</string>
+
+    <!-- toggles -->
+    <string name="toggle_on">ON</string>
+    <string name="toggle_off">OFF</string>
+
+    <!-- toasts -->
+    <string name="toast_folder_selected">Folder selected</string>
+    <string name="toast_no_picker">System folder picker is not available</string>
+    <string name="toast_interval_clamped">Interval set to %1$d s</string>
+</resources>

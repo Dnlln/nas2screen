@@ -1,0 +1,26 @@
+# build toolchain (downloaded, not part of the project)
+.toolchain/
+.android-sdk/
+.android-home/
+.gradle-home/
+.robolectric-deps/
+.tmp/
+local.properties
+
+# gradle / ide
+.gradle/
+build/
+app/build/
+*.iml
+.idea/
+captures/
+
+# signing material: generate your own with tools\make_keystore.ps1
+keystore/
+keystore.properties
+
+# os noise
+Thumbs.db
+desktop.ini
+
+dist/

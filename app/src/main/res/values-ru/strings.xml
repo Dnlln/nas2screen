@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фотоскринсейвер NAS</string>
+    <string name="settings_title">Настройки заставки</string>
+
+    <!-- current source -->
+    <string name="current_source">Текущий источник</string>
+    <string name="current_source_none">не выбран</string>
+    <string name="current_source_local">Этот телевизор / USB</string>
+    <string name="current_source_smb">SMB</string>
+
+    <!-- source -->
+    <string name="section_source">НАСТРОЙКА ИСТОЧНИКА</string>
+    <string name="source_local">Этот телевизор или USB-накопитель</string>
+    <string name="source_local_desc">Выбрать папку, доступную на этом устройстве</string>
+    <string name="source_smb">SMB</string>
+    <string name="source_smb_desc">Подключиться к общей папке на NAS, ПК или сервере</string>
+
+    <string name="folder_location">Расположение папки</string>
+    <string name="folder_not_set">Папка не выбрана</string>
+    <string name="choose_folder">Выбрать папку</string>
+    <string name="choose_folder_manual">Выбрать папку вручную (без системного диалога)</string>
+    <string name="storage_permission_needed">Для просмотра папок нужен доступ к памяти</string>
+
+    <string name="smb_server">Адрес сервера</string>
+    <string name="smb_server_hint">192.168.88.23 или nas.local</string>
+    <string name="smb_folder">Путь к папке</string>
+    <string name="smb_folder_hint">Multimedia/Camera Uploads/2026/02</string>
+    <string name="smb_user">Имя пользователя</string>
+    <string name="smb_password">Пароль</string>
+    <string name="smb_credentials_hint">Оставьте пустым для гостевого доступа</string>
+
+    <string name="test_connection">Проверить подключение</string>
+    <string name="testing">Проверка…</string>
+    <string name="test_ok">Подключение выполнено. Найдено фото: %1$d</string>
+    <string name="test_ok_empty">Подключение выполнено, но в папке нет фотографий</string>
+    <string name="test_need_values">Сначала укажите сервер и путь к папке</string>
+
+    <!-- slideshow -->
+    <string name="section_slideshow">СЛАЙД-ШОУ</string>
+    <string name="interval_title">Интервал между фото</string>
+    <string name="interval_desc">От 5 до 3600 секунд</string>
+    <string name="interval_unit">сек</string>
+    <string name="interval_invalid">Интервал должен быть от 5 до 3600 секунд</string>
+    <string name="shuffle_title">Перемешивать</string>
+    <string name="shuffle_desc">Случайный порядок, одно и то же фото не повторяется подряд</string>
+
+    <!-- screen -->
+    <string name="section_screen">ЭКРАН</string>
+    <string name="clock_title">Часы</string>
+    <string name="clock_desc">Текущее время справа снизу</string>
+
+    <!-- maintenance -->
+    <string name="section_maintenance">ОБСЛУЖИВАНИЕ</string>
+    <string name="clear_cache">Очистить кэш изображений</string>
+    <string name="cache_used">В кэше: %1$s</string>
+    <string name="cache_cleared">Кэш очищен</string>
+    <string name="open_system_dream_settings">Системные настройки заставки</string>
+    <string name="open_system_settings_failed">Не удалось открыть системные настройки</string>
+    <string name="last_error_title">Последняя ошибка</string>
+    <string name="last_error_none">нет</string>
+    <string name="version_fmt">Версия %1$s</string>
+    <string name="size_bytes">%1$d Б</string>
+    <string name="size_kb">%1$.0f КБ</string>
+    <string name="size_mb">%1$.1f МБ</string>
+
+    <!-- preview -->
+    <string name="preview">Предпросмотр</string>
+    <string name="preview_hint">МЕНЮ — настройки · НАЗАД — выход</string>
+    <string name="nav_hint">Перемещение — крестовина D-pad, выбор — ОК</string>
+
+    <!-- errors -->
+    <string name="err_not_configured">Источник фотографий не выбран</string>
+    <string name="err_no_files">В выбранной папке нет фотографий</string>
+    <string name="err_source_unavailable">Источник недоступен. Проверьте настройки.</string>
+    <string name="err_not_found">Папка не найдена: %1$s</string>
+    <string name="err_denied">Доступ запрещён. Проверьте имя пользователя и пароль</string>
+    <string name="err_unreachable">Сервер недоступен: %1$s</string>
+    <string name="err_timeout">Превышено время ожидания</string>
+    <string name="err_protocol">Сервер не поддерживает SMB 2. Требуется SMB 2.0/2.1</string>
+    <string name="err_unreadable">Не удаётся прочитать: %1$s</string>
+    <string name="err_io">Ошибка источника: %1$s</string>
+    <string name="err_bad_smb_path">Неверный путь SMB. Укажите сервер и папку, например Multimedia/Photos</string>
+    <string name="retry_in">Повтор через %1$d с</string>
+
+    <!-- dream / slideshow messages -->
+    <string name="msg_choose_source">Выберите источник фотографий</string>
+    <string name="msg_choose_source_hint">Откройте приложение «Фотоскринсейвер NAS» и выберите папку</string>
+    <string name="msg_loading">Загрузка фотографий…</string>
+    <string name="msg_empty_folder">Фотографии не найдены</string>
+
+    <!-- folder browser -->
+    <string name="browser_title">Выбор папки</string>
+    <string name="browser_up">Вверх</string>
+    <string name="browser_pick">Выбрать эту папку</string>
+    <string name="browser_current">Текущая: %1$s</string>
+    <string name="browser_empty">Нет вложенных папок</string>
+    <string name="browser_grant">Разрешить доступ к памяти</string>
+    <string name="browser_internal">Внутренняя память</string>
+    <string name="browser_root">Память</string>
+    <string name="browser_roots_title">Накопители</string>
+
+    <!-- toggles -->
+    <string name="toggle_on">ВКЛ</string>
+    <string name="toggle_off">ВЫКЛ</string>
+
+    <!-- toasts -->
+    <string name="toast_folder_selected">Папка выбрана</string>
+    <string name="toast_no_picker">Системный выбор папок недоступен</string>
+    <string name="toast_interval_clamped">Интервал установлен: %1$d сек</string>
+</resources>

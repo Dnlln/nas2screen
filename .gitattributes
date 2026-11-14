@@ -1,0 +1,13 @@
+# Keeps line endings consistent for a Windows/Android project and marks binaries.
+* text=auto eol=lf
+
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.jks binary
+*.dex binary
+*.apk binary
